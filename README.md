@@ -19,7 +19,7 @@ $ source setup.bash
 
 $ roslaunch crop_row_follower usb_cam.launch video_device:=/dev/video0
 
-* the row_tracker node
+*the row_tracker node
 
 $ roslaunch crop_row_follower object_tracker.launch
 
