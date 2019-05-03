@@ -13,10 +13,15 @@ $ source setup.bash
   
 
 *to launch the usb camera node 
+
 $ roslaunch crop_row_follower usb_cam.launch video_device:=/dev/video0
+
 * the row_tracker node
+
 $ roslaunch crop_row_follower object_tracker.launch
-*the crop_row_publish 
+
+*the crop_row_publisher node 
+
 $ roslaunch crop_row_follower crop_row_publisher.launch
  
  
