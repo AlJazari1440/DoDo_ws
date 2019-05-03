@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="crop_row_follower" name="crop_row_publisher" type="crop_row_publisher.py" output="screen">
+    <remap from="input_rgb_image" to="/camera/rgb/image_raw" />
+    <remap from="input_depth_image" to="/camera/depth/image_rect" />
+  </node>
+  
+</launch>
