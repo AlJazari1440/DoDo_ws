@@ -6,8 +6,11 @@ $ mkdir -p ~/DoDo_ws/src
 Then copy the crop_row_follower folder inside the DoDo_ws/src directory 
 
 $ cd ~/DoDo_ws/
+
 $ catkin_make
+
 $ cd devel
+
 $ source setup.bash
 
   
