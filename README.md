@@ -34,12 +34,14 @@ $ rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 DoDo Autonmous crop sprayer demo https://youtu.be/9pp_zGtAmGk 
 
-Data set testing demo https://youtu.be/tlmTV2QY2gE 
+
 
  _________________________________
  __________________________________
  
- For the computer vision algorithm:
+ For the Computer Vision algorithm:
+ 
+ Data set testing demo https://youtu.be/tlmTV2QY2gE 
  
 The algorithm implemented in the node crop_row_publisher in the source file """"""crop_row_follower/src/crop_row_publisher_2.py"""""", this node subscibes to the /camera/rgb/image_raw topic , then has the image_callback function which utilizes the process_image function. The process_image function converts the image to gray scale then skeltonize the image and extract the lines. After this the intesections with the image borders are calculated and publishing to the /roi topic.
 
