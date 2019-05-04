@@ -57,6 +57,10 @@ For disscusion about the DoDo robot in the ROS-A group, see this video:
 
 https://youtu.be/meLUXcqFWhs 
 
+Thank you,
+
+Mahmoud Gomaa, Mostafa Mahmoud , Mahmoud Shoshah
+
  
  
  have fun!
