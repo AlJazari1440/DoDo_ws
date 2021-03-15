@@ -59,7 +59,7 @@ https://youtu.be/meLUXcqFWhs
 
 Thank you,
 
-Mahmoud Gomaa, Mostafa Mahmoud , Mahmoud Shoshah
+Mahmoud Shoshah
 
  ![DoDo](/DoDo.jpeg)
  
